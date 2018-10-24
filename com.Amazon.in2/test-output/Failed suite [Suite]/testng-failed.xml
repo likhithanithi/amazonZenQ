@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]">
+  <parameter name="Browser" value="firefox"/>
+  <test name="Test(failed)(failed)">
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="com.makemytrip.scenarios.D_ValidateSearchFlights">
+        <methods>
+          <include name="QuitBrowser"/>
+          <include name="LaunchUrl"/>
+          <include name="SearchFlights"/>
+        </methods>
+      </class> <!-- com.makemytrip.scenarios.D_ValidateSearchFlights -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

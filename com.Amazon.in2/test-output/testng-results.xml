@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="18" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="147819" started-at="2018-10-24T14:07:56Z" finished-at="2018-10-24T14:10:24Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="147819" started-at="2018-10-24T14:07:56Z" finished-at="2018-10-24T14:10:24Z">
+      <class name="com.amazon.scenarios.B_DataDrivenInvalidLogInCreds">
+        <test-method status="PASS" signature="LaunchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.amazon.scenarios.B_DataDrivenInvalidLogInCreds@14acaea5]" name="LaunchBrowser" duration-ms="26413" started-at="2018-10-24T19:38:11Z" data-provider="TestData" finished-at="2018-10-24T19:38:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1@gmail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="LaunchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.amazon.scenarios.B_DataDrivenInvalidLogInCreds@14acaea5]" name="LaunchBrowser" duration-ms="31991" started-at="2018-10-24T19:38:37Z" data-provider="TestData" finished-at="2018-10-24T19:39:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1@gmail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="LaunchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.amazon.scenarios.B_DataDrivenInvalidLogInCreds@14acaea5]" name="LaunchBrowser" duration-ms="21697" started-at="2018-10-24T19:39:09Z" data-provider="TestData" finished-at="2018-10-24T19:39:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1@gmail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+      </class> <!-- com.amazon.scenarios.B_DataDrivenInvalidLogInCreds -->
+      <class name="com.amazon.scenarios.C_ValidateMouseHoverAction">
+        <test-method status="PASS" signature="LaunchBrowser(java.lang.String)[pri:0, instance:com.amazon.scenarios.C_ValidateMouseHoverAction@224edc67]" name="LaunchBrowser" duration-ms="2611" started-at="2018-10-24T19:39:31Z" finished-at="2018-10-24T19:39:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="LaunchUrl()[pri:0, instance:com.amazon.scenarios.C_ValidateMouseHoverAction@224edc67]" name="LaunchUrl" duration-ms="7323" started-at="2018-10-24T19:39:33Z" finished-at="2018-10-24T19:39:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchUrl -->
+        <test-method status="PASS" signature="MouseHover()[pri:0, instance:com.amazon.scenarios.C_ValidateMouseHoverAction@224edc67]" name="MouseHover" duration-ms="5567" started-at="2018-10-24T19:39:41Z" finished-at="2018-10-24T19:39:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MouseHover -->
+        <test-method status="PASS" signature="QuitBrowser()[pri:0, instance:com.amazon.scenarios.C_ValidateMouseHoverAction@224edc67]" name="QuitBrowser" duration-ms="802" started-at="2018-10-24T19:39:46Z" depends-on-methods="com.amazon.scenarios.C_ValidateMouseHoverAction.MouseHover" finished-at="2018-10-24T19:39:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- com.amazon.scenarios.C_ValidateMouseHoverAction -->
+      <class name="com.amazon.scenarios.E_validateLogInwithValidCreds">
+        <test-method status="PASS" signature="LaunchBrowser(java.lang.String)[pri:0, instance:com.amazon.scenarios.E_validateLogInwithValidCreds@46d56d67]" name="LaunchBrowser" duration-ms="2629" started-at="2018-10-24T19:40:02Z" finished-at="2018-10-24T19:40:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="LaunchUrl()[pri:0, instance:com.amazon.scenarios.E_validateLogInwithValidCreds@46d56d67]" name="LaunchUrl" duration-ms="7224" started-at="2018-10-24T19:40:04Z" finished-at="2018-10-24T19:40:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchUrl -->
+        <test-method status="PASS" signature="LogIn()[pri:0, instance:com.amazon.scenarios.E_validateLogInwithValidCreds@46d56d67]" name="LogIn" duration-ms="11154" started-at="2018-10-24T19:40:12Z" finished-at="2018-10-24T19:40:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.amazon.scenarios.E_validateLogInwithValidCreds@46d56d67]" name="quit" duration-ms="851" started-at="2018-10-24T19:40:23Z" finished-at="2018-10-24T19:40:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.amazon.scenarios.E_validateLogInwithValidCreds -->
+      <class name="com.amazon.scenarios.A_LaunchMakeMyTripApp">
+        <test-method status="PASS" signature="LaunchBrowser(java.lang.String)[pri:0, instance:com.amazon.scenarios.A_LaunchMakeMyTripApp@d8355a8]" name="LaunchBrowser" duration-ms="5584" started-at="2018-10-24T19:37:56Z" finished-at="2018-10-24T19:38:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="LaunchUrl()[pri:0, instance:com.amazon.scenarios.A_LaunchMakeMyTripApp@d8355a8]" name="LaunchUrl" duration-ms="7060" started-at="2018-10-24T19:38:01Z" depends-on-methods="com.amazon.scenarios.A_LaunchMakeMyTripApp.LaunchBrowser" finished-at="2018-10-24T19:38:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchUrl -->
+        <test-method status="PASS" signature="QuitBrowser()[pri:0, instance:com.amazon.scenarios.A_LaunchMakeMyTripApp@d8355a8]" name="QuitBrowser" duration-ms="2157" started-at="2018-10-24T19:38:08Z" depends-on-methods="com.amazon.scenarios.A_LaunchMakeMyTripApp.LaunchUrl" finished-at="2018-10-24T19:38:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- com.amazon.scenarios.A_LaunchMakeMyTripApp -->
+      <class name="com.amazon.scenarios.D_ValidateDropDown">
+        <test-method status="PASS" signature="LaunchBrowser(java.lang.String)[pri:0, instance:com.amazon.scenarios.D_ValidateDropDown@39aeed2f]" name="LaunchBrowser" duration-ms="2640" started-at="2018-10-24T19:39:47Z" finished-at="2018-10-24T19:39:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="LaunchUrl()[pri:0, instance:com.amazon.scenarios.D_ValidateDropDown@39aeed2f]" name="LaunchUrl" duration-ms="7037" started-at="2018-10-24T19:39:50Z" finished-at="2018-10-24T19:39:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchUrl -->
+        <test-method status="PASS" signature="DropDown()[pri:0, instance:com.amazon.scenarios.D_ValidateDropDown@39aeed2f]" name="DropDown" duration-ms="4197" started-at="2018-10-24T19:39:57Z" finished-at="2018-10-24T19:40:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DropDown -->
+        <test-method status="PASS" signature="QuitBrowser()[pri:0, instance:com.amazon.scenarios.D_ValidateDropDown@39aeed2f]" name="QuitBrowser" duration-ms="752" started-at="2018-10-24T19:40:01Z" depends-on-methods="com.amazon.scenarios.D_ValidateDropDown.DropDown" finished-at="2018-10-24T19:40:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- com.amazon.scenarios.D_ValidateDropDown -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
